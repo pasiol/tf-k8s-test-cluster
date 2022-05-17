@@ -1,0 +1,6 @@
+.idea
+.terraform*
+
+terraform*
+cloud_init.cfg
+terraform.tfstate
