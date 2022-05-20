@@ -4,3 +4,5 @@
 terraform*
 cloud_init.cfg
 terraform.tfstate
+state*
+*.qcow2

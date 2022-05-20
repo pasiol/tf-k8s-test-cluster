@@ -11,7 +11,7 @@ resource "libvirt_cloudinit_disk" "test-k8s-master-01-commoninit" {
 resource "libvirt_volume" "test-k8s-master-01-qcow2" {
   name = "test-k8s-master-01.qcow2"
   pool = "default"
-  source = "https://dl.rockylinux.org/pub/rocky/8.6/images/Rocky-8-GenericCloud.latest.x86_64.qcow2"
+  source = "Rocky-8-GenericCloud-8.5-20211114.2.x86_64.qcow2"
   format = "qcow2"
 }
 
